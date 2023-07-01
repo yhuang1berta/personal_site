@@ -1,0 +1,24 @@
+.CVPage__pdf {
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 992px) {
+    .CVPage__pdf {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .CVPage__pdf {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .CVPage__pdf {
+        height: 600px;
+    }
+}
