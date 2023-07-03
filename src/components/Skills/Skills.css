@@ -49,3 +49,31 @@
 .skills__level {
     font-size: var(--tiny-font-size);
 }
+
+@media screen and (max-width: 992px) {
+    .skills__container {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .skills__container {
+        grid-template-columns: max-content;
+    }
+
+    .skills__content {
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .skills__container {
+        grid-template-columns: max-content;
+        justify-content: center;
+    }
+
+    .skills__name {
+        font-size: var(--small-font-size);
+    }
+}
