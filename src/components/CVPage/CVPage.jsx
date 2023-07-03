@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Resume from "../SDE_resume_CA.pdf"
 import "./CVPage.css"
 
