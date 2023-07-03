@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./Header.css";
 
+
 const Header = () => {
 
     const [showMenu, setShowMenu] = useState(false);
@@ -8,7 +9,9 @@ const Header = () => {
   return (
     <header className='header'>
         <nav className="nav container">
-            <a href="index.html" className="nav__logo">Ye Huang</a>
+            <a href="index.html" className="nav__logo">
+                Ye Huang
+            </a>
 
             <div className={showMenu ? 'nav__menu show-menu' : "nav__menu"}>
                 <ul className='nav__list grid'>

@@ -11,7 +11,7 @@ const Info = () => {
         <div className="about__box">
             <i class="uil uil-bag about__icon"></i>
             <h3 className="about__title">Academic</h3>
-            <span className="about__subtitle">3.48/4.0 GPA @ UofT 3.27/4.3 GPA @ HKUST Member of UofT CSEd</span>
+            <span className="about__subtitle">3.48/4.0 GPA @ UofT <br /> 3.27/4.3 GPA @ HKUST <br /> Member of UofT CSEd <br /> Dean's list 2018-2021</span>
         </div>
 
         
