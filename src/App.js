@@ -5,6 +5,7 @@ import Home from "./components/Home/Home"
 import About from "./components/About/About"
 import Skills from './components/Skills/Skills';
 import Qualification from './components/Qualification/Qualification';
+import Renovation from './components/Renovation/Renovation';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <About />
         <Skills />
         <Qualification />
+        <Renovation/>
       </div>
       {/* <h1 style={{fontSize: "100px", textAlign: "center"}}>Even though I think typing on Whatsapp is easier</h1> */}
     </div>

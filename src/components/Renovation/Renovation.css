@@ -1,0 +1,6 @@
+.renovation__title {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    text-align: center;
+    margin-bottom: var(--mb-1-5);
+}

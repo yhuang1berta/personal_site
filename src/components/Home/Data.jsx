@@ -21,7 +21,6 @@ const Data = () => {
                         onInit={(typewriter) => {
                             typewriter.pauseFor(1000);
                             typeAndDelete(typewriter, "Data Scientist");
-                            typeAndDelete(typewriter, "Data Engineer");
                             typeAndDelete(typewriter, "Web Developer");
                             typeAndDelete(typewriter, "Guitarist");
                             typewriter.changeDeleteSpeed(5).deleteAll().start();
